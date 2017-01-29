@@ -1,0 +1,74 @@
+body {
+  padding: 10px;
+  background-color: #FFF;
+}
+
+
+.demo-card-wide.mdl-card {
+  width: 300px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.afl-card-icon {
+  transform: translateX(240px) translateY(18px);
+  z-index: 2;
+  border-color: #FFF;
+  border-width: 3px;
+}
+
+.afl-card-top {
+  background-color: brown;
+  color: #FFF;
+  padding: 4px;
+}
+
+.afl-padding-4 {
+  margin-top: -6px;
+  padding: 4px;
+}
+.afl-padding-8 {
+  padding: 8px;
+}
+
+.afl-comments {
+  padding: 4px 8px;
+}
+.afl-junk {
+  padding-top: 20px;
+}
+
+.afl-card-content {
+  padding: 8px;
+}
+
+.afl-user-thumb {
+  height: 44px;
+  width: 44px;
+  border-radius: 20%;
+}
+.afl-user-thumb-sm {
+  height: 25px;
+  width: 25px;
+  border-radius: 20%;
+}
+.afl-card {
+  background-color: orange;
+  border-radius: 0px;
+}
+.afl-card-hh {
+  background-color: orange;
+  white-space: nowrap;
+}
+
+/*.afl-card-top {
+  padding: 4px 4px 4px 40px ;
+  background-color: #DDD;
+  border-radius: 0 0 50px 0;
+}*/
