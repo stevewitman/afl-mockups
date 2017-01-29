@@ -1,0 +1,52 @@
+
+channel
+  archived
+  current
+    event
+      members
+        creator
+        joiners
+      title
+      type
+      datetime
+      comments
+        user_id
+        comment
+      max
+      likes
+  members
+    events_created
+    events_attended
+    events_commented_on
+    events_liked
+
+Allow users to pin to top (watch)
+hover ? for help'
+
+{
+  "rooms": {
+    "one": {
+      "name": "room alpha",
+      "type": "private"
+    },
+    "two": { ... },
+    "three": { ... }
+  },
+  "members": {
+    "one": {
+      "mchen": true,
+      "hmadi": true
+    },
+    "two": { ... },
+    "three": { ... }
+  },
+  "messages": {
+    "one": {
+      "m1": { "sender": "mchen", "message": "foo" },
+      "m2": { ... },
+      "m3": { ... }
+    },
+    "two": { ... },
+    "three": { ... }
+  }
+}
