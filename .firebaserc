@@ -1,1 +1,6 @@
-{}
+{
+  "projects": {
+    "n": "afl-mockups",
+    "firebase-mockups": "afl-mockups"
+  }
+}
