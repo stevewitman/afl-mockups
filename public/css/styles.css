@@ -18,13 +18,14 @@ html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 
 }
-body {
+/*body {
     background-color: #555;
-}
+}*/
 
 .mdl-layout__header-row {
-  background: #C06014;
-  color: #FFF;
+  height: 64px;
+  background: orange;
+  color: #000;
 }
 .demo-avatar {
   width: 48px;
@@ -32,11 +33,11 @@ body {
   border-radius: 24px;
 }
 .demo-layout .mdl-layout__header .mdl-layout__drawer-button {
-  color: rgba(0, 0, 0, 0.54);
-  background-color: #C06014;
-  border: 1px solid #FFF;
-  border-radius: 50%;
-  /*background-color: #00bcd4;*/
+  margin: 8px;
+  color: #000;
+  background-color: orange;
+  border: 1px solid black;
+  border-radius: 20%;
 }
 .mdl-layout__drawer .avatar {
   margin-bottom: 16px;
@@ -72,7 +73,7 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding: 16px;
-  height: 151px;
+  height: 64px;
 }
 .demo-avatar-dropdown {
   display: -webkit-flex;
@@ -256,8 +257,9 @@ _:-ms-input-placeholder, :root .demo-graph {
 }
 
 .afl-card-top {
-  background-color: #C06014;
-  color: #FFF;
+  background-color: orange;
+  color: #000;
+  height: 20px;
   padding: 4px;
 }
 
@@ -291,11 +293,11 @@ _:-ms-input-placeholder, :root .demo-graph {
   border-radius: 20%;
 }
 .afl-card {
-  background-color: #EDDBCD;
+  background-color: #FFF;
   border-radius: 0px;
 }
 .afl-card-hh {
-  background-color: #EDDBCD;
+  background-color: #FFF;
   white-space: nowrap;
 }
 
